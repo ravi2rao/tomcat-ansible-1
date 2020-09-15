@@ -1,6 +1,6 @@
 pipeline{
   
-  agent { label 'LIN-ANSIBEL-MASTER-172-31-33-11' }
+  agent { label 'Ansible-Master' }
 
   stages{
       stage('checkout'){
